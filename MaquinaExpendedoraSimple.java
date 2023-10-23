@@ -12,6 +12,8 @@ public class MaquinaExpendedoraSimple {
     private String estacionDestino;
     //Total dinero acumulado despues de vaciado
     private int getTotalDineroAcumulado;
+    //Establecer precio billete
+    private int setPrecioBillete;
 
     /**
      * Crea una maquina expendedora de billetes de tren con el 
@@ -64,6 +66,13 @@ public class MaquinaExpendedoraSimple {
     
     public int getTotalDineroAcumulado() {
          return totalDineroAcumulado;   
+    }
+    
+    /**
+     * Cambiar precio billete
+     */
+    public void setPrecioBillete(int precioBilleteNuevo) {
+        precioBillete = precioBilleteNuevo;
     }
     
     /**
